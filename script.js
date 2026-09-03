@@ -19,14 +19,14 @@ function gameFlash(btn) {
     btn.classList.add("flash");
     setTimeout(function () {
         btn.classList.remove("flash");
-    }, 350);
+    }, 550);
 }
 
 function userFlash(btn) {
     btn.classList.add("userflash");
     setTimeout(function () {
         btn.classList.remove("userflash");
-    }, 350);
+    }, 550);
 }
 
 function levelUp() {
